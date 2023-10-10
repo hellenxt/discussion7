@@ -1,0 +1,85 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body > a:first-child{
+  position: absolute;
+  top:-50px;
+}
+
+body > a:first-child:focus{
+  top: 0px
+}
+
+body{
+  background-color: #fff5e7;
+  font-size: 18px;
+  line-height: 1.15;
+  margin: 5px;
+  padding: 10px;
+}
+
+
+.overview{
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  color: white;
+  height: 400px;                /* Parallax effect */
+}
+
+
+.overview p{
+  color: white;
+  font-size: 24px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+h1{
+  font-size: 44px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+  justify-content: center;
+
+}
+
+nav a{
+  color: rgb(136, 44, 13);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.current{
+  color: rgb(136, 44, 13);
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container{
+  display: grid;
+  width:100pt;
+  grid-template-columns: 1fr 2fr;
+  gap:20px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
